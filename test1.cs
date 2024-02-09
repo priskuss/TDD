@@ -1,7 +1,7 @@
 Console.WriteLine("Enter a number of inches and a unit to convert to (e.g. 5 -mm):");
 
 double inches = Convert.ToDouble(Console.ReadLine());
-double expected = inches * 25.8; // 25.4 correct 
+double expected = inches * 25.8;
 double resultOne = ConvertTo(inches, "-mm");
 
 if (expected == resultOne)
