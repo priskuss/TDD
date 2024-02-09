@@ -1,4 +1,6 @@
-﻿class Program
+﻿namespace TTD
+{
+    class Program
 {
     static void Main(string[] args)
     {
@@ -44,4 +46,5 @@
             return 0;
         }
     }
+}
 }
