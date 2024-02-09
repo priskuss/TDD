@@ -7,6 +7,7 @@
             Console.WriteLine("Usage: dotnet run <inches> <-mm/-cm/-m>");
             return;
         }
+
         if (!double.TryParse(args[0], out double inches))
         {
             Console.WriteLine("Invalid input for inches.");
